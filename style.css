@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+.sol,.sag {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.sag button {
+    padding: 10px 25px;
+    background-color: #4582EC;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.sag button:hover {
+    background-color: #4b7ed7;
+}
+a {
+    text-decoration: none;
+    color: rgb(69, 64, 64);
+}
+.sag a img {
+    position: relative;
+    top: 3px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    top: 7em;
+}
+.input input {
+    width: 550px;
+    padding: 13px;
+    border-radius: 26px;
+    border: 1px solid #5f6368;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 8em;
+}
+button {
+    padding: 11px 36px;
+    margin: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+}
+.alt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 21.7em;
+    background-color: #f2f2f2;
+    padding: 26px;
+}
+.alt-sol,.alt-sag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :25px;
+}
+i {
+    font-size: 22px;
+    position: relative;
+    top: .2em;
+    left: 1.7em;
+}
+.voice {
+    width: 30px;
+    position: relative;
+    top: .6em;
+    right: 2.4em;
+}
